@@ -1,0 +1,453 @@
+/* Reset */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background: #252b29;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+}
+
+/* button */
+.btn {
+  display: inline-block;
+  background: #16ddaa;
+  color: #252a29;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  background: #77ffdc;
+}
+
+/* Links */
+.link {
+  color: #bdffee;
+  font-size: 1.125em;
+  line-height: 1.875em;
+}
+
+.link:hover {
+  color: #00c492;
+  border-bottom: 1px solid #00c492;
+}
+
+.quote {
+  font-size: 1.125em;
+  line-height: 1.75em;
+  text-align: center;
+  font-style: italic;
+  color: #7e8883;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 128px;
+}
+
+.quote cite {
+  display: block;
+  font-size: 1em;
+  font-style: normal;
+  color: #7e8883;
+  text-align: right;
+  padding-top: 16px;
+}
+
+.header-menu ul li a.menu-ativo {
+  color: #16ddaa;
+}
+
+.header {
+  padding: 40px 0;
+}
+
+.header-menu {
+  flex: 1;
+}
+.header ul {
+  float: right;
+}
+
+.header-menu ul li {
+  display: inline-block;
+}
+
+.header-menu ul li a {
+  color: #7e8883;
+  font-size: 1.125em;
+  line-height: 1.5em;
+  padding: 0 0 0 30px;
+}
+
+.header-menu ul li a:hover {
+  color: #16ddaa;
+}
+
+.principal {
+  padding: 88px 0 128px 0;
+}
+
+.texto {
+  flex: 1;
+}
+
+.foto {
+  flex: 1;
+}
+
+.texto p {
+  font-size: 1.5em;
+  line-height: 1em;
+  color: #16ddaa;
+  margin-bottom: 36px;
+}
+
+.texto h2 {
+  font-size: 3.43em;
+  line-height: 1.5em;
+  font-weight: normal;
+  color: #7e8883;
+  margin-bottom: 36px;
+}
+
+.foto-perfil img {
+  margin: 0 auto;
+  margin-right: 0;
+}
+
+/* Carrossel */
+.carrossel-texto {
+  margin: 0 auto;
+}
+
+.carrossel-texto h2 {
+  font-size: 1.5em;
+  color: #16ddaa;
+  padding-bottom: 8px;
+  margin: 128px 0 128px 0;
+  border-bottom: 1px solid #4d5553;
+}
+
+/* Footer */
+.footer {
+  padding: 128px 0 40px 0;
+}
+
+.footer ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.footer ul li a {
+  font-size: 2em;
+  color: #4d5553;
+  padding: 10px;
+}
+
+.footer ul li a:hover {
+  color: #16ddaa;
+}
+
+/* Sobre */
+.sobre-conteudo {
+  padding: 88px 0 64px 0;
+}
+
+.sobre-conteudo-2 {
+  padding: 0 0 64px 0;
+}
+
+.sobre-texto {
+  flex-grow: 1;
+}
+
+.sobre-texto h2,
+.sobre-texto-2 h2,
+.sobre-texto-3 h2 {
+  font-size: 1.5em;
+  color: #16ddaa;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #4d5553;
+}
+
+.sobre-texto p {
+  font-size: 1.125em;
+  line-height: 1.875em;
+  color: #7e8883;
+  padding: 16px 0 0 0;
+}
+
+.sobre-icone img,
+.sobre-icone-2 img,
+.sobre-icone-3 img {
+  margin: 0 0 0 auto;
+}
+
+.sobre-texto-2 ul {
+  padding: 16px 0 0 0;
+}
+
+.sobre-texto-3 ul {
+  padding: 16px 0 36px 0;
+}
+
+.sobre-texto-2 ul li,
+.sobre-texto-3 ul li {
+  font-size: 1.125em;
+  line-height: 1.875em;
+  color: #7e8883;
+}
+
+/* Projetos */
+.projetos-conteudo {
+  padding: 88px 0 128px 0;
+}
+
+.projetos-conteudo-2 {
+  padding: 0 0 128px 0;
+}
+
+.projetos-conteudo-2 .projetos-img img {
+  margin: 0 0 0 auto;
+}
+
+.projetos-texto {
+  flex-grow: 1;
+}
+
+.projetos-texto h2 {
+  font-size: 1.5em;
+  color: #16ddaa;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #4d5553;
+}
+
+.projetos-texto p {
+  font-size: 1.125em;
+  line-height: 1.875em;
+  color: #7e8883;
+  padding: 16px 0 16px 0;
+}
+
+/* Contato */
+.contato {
+  justify-content: space-between;
+  padding-top: 88px;
+}
+
+.formulario input,
+.formulario textarea {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.formulario label {
+  display: block;
+  font-size: 1.125em;
+  color: #16ddaa;
+  padding-bottom: 8px;
+}
+
+.formulario input {
+  background: none;
+  border: none;
+  outline-style: none;
+  border: 1px solid #16ddaa;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 1.125em;
+  line-height: 1.5em;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 16px;
+  color: #7e8883;
+}
+
+.formulario textarea {
+  height: 120px;
+  background: none;
+  border: none;
+  outline-style: none;
+  border: 1px solid #16ddaa;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 1.125em;
+  line-height: 1.5em;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 16px;
+  color: #7e8883;
+}
+
+.endereco {
+  display: block;
+  font-size: 1.125em;
+  color: #7e8883;
+  line-height: 2em;
+}
+
+/* Java DataSlide */
+.js [data-slide] {
+  position: relative;
+}
+
+.js [data-slide] > .carrossel-img {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+}
+
+/* Bolinhas */
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  outline: none;
+  padding: 0;
+  border-radius: 6px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: #4d5553;
+  cursor: pointer;
+}
+
+.js [data-slide-nav] button.active {
+  background: #16ddaa;
+}
+
+/* Media queryes */
+@media (max-width: 739px) {
+  .header-logo {
+    margin: 20px auto;
+  }
+  .header ul {
+    float: none;
+    text-align: center;
+  }
+  .header-menu ul li a {
+    text-align: center;
+    padding: 10px;
+  }
+  .principal {
+    padding: 0;
+  }
+  .texto h2 {
+    font-size: 2.5em;
+  }
+
+  .texto p {
+    margin-top: 36px;
+  }
+  .btn {
+    display: block;
+  }
+
+  .foto {
+    margin-top: 64px;
+    order: -1;
+  }
+  /* Sobre */
+  .sobre-conteudo {
+    padding: 88px 0 64px 0;
+  }
+
+  .sobre-texto h2,
+  .sobre-texto-2 h2,
+  .sobre-texto-3 h2 {
+    padding-top: 36px;
+  }
+
+  .sobre-texto p {
+    padding: 16px 0 36px 0;
+  }
+
+  .quote {
+    width: 300px;
+  }
+
+  .sobre-icone img,
+  .sobre-icone-2 img,
+  .sobre-icone-3 img {
+    margin: 0 auto;
+  }
+
+  .sobre-icone,
+  .sobre-icone-2,
+  .sobre-icone-3 {
+    order: -1;
+  }
+
+  .sobre-texto-2 ul,
+  .sobre-texto-3 ul {
+    padding: 16px 0 36px 0;
+  }
+
+  /* Projetos */
+  .projetos-conteudo-2 {
+    padding: 0 0 128px 0;
+  }
+
+  .projetos-conteudo-2 .projetos-img {
+    order: -1;
+  }
+
+  .projetos-texto h2 {
+    padding-top: 16px;
+  }
+
+  /* Contato */
+  .endereco {
+    margin-top: 64px;
+    font-size: 1em;
+  }
+}
